@@ -311,7 +311,7 @@ local function process()
 	end
 end
 
-if _VERSION == "Lua 5.2" then
+if _VERSION == "Lua 5.3" then
 	io.stderr:write("You need Lua 5.3 to install Fuchas.\n")
 	return
 end
